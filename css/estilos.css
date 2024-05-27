@@ -576,6 +576,15 @@ body{
                     outline: none;
                     color:white;
                 }
+                .error input:not(.check,.boton),.error select{
+                    border: 1px solid #ff0000;
+                }
+                .error-text{
+                    color: #ff0000;
+                    font-size: 0.8rem;
+                    margin-top:0px;
+                    margin-bottom: 10px;
+                }
                 .terminos{
                     font-size: 0.8rem;
                     display: flex;
@@ -632,11 +641,7 @@ body{
                 width: 100%;
                 text-align: center;
                
-                input:not(.check,.boton),select{
-                    width: 80%;
-                    height: 35px;
-                    font-size: 1rem;
-                }
+                
                 .terminos{
                     width: 80%;
                     margin:0 auto;
